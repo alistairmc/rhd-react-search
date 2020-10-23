@@ -1,0 +1,2081 @@
+{
+    "response": {
+        "numFound": 2478,
+        "start": 0,
+        "maxScore": 21.619064,
+        "docs": [
+            {
+                "_lw_parser_id_s": "73f04e8a-c241-4d92-a0ea-411f3ddd0d9a",
+                "absolute_resource_name": [
+                    "https://developers.redhat.com/taxonomy/term/9/feed"
+                ],
+                "mimeType": [
+                    "application/rss+xml"
+                ],
+                "type": [
+                    "webpage"
+                ],
+                "title": [
+                    "RHEL"
+                ],
+                "tikaHandlerLocation": [
+                    "https://developers.redhat.com/taxonomy/term/9/feed"
+                ],
+                "parsing": [
+                    "ok"
+                ],
+                "_lw_data_source_collection_s": "developers_collection",
+                "_lw_parser_charset_s": "UTF-8",
+                "parent_s": "https://developers.redhat.com/taxonomy/term/9/",
+                "dc_title": [
+                    "RHEL"
+                ],
+                "signature_s": "{\"etag\":\"\\\"1603420037-gzip\\\"\"}",
+                "Content_Encoding": [
+                    "UTF-8"
+                ],
+                "_lw_data_source_type_s": "lucid.web/web",
+                "_archiving_parser_id": [
+                    "developers"
+                ],
+                "Content_Type": [
+                    "application/rss+xml"
+                ],
+                "charSet": [
+                    "UTF-8"
+                ],
+                "_lw_data_source_s": "web_developers_redhat_com-developers_collection",
+                "X_Parsed_By": [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.feed.FeedParser"
+                ],
+                "_lw_parser_type_s": "tika",
+                "_initialResource_name": [
+                    "https://developers.redhat.com/taxonomy/term/9/feed"
+                ],
+                "responseHeaders_ss": [
+                    "Server: Apache",
+                    "X-Powered-By: PHP/7.3.11",
+                    "Cache-Control: max-age=10800, public",
+                    "X-Drupal-Dynamic-Cache: MISS",
+                    "X-UA-Compatible: IE=edge",
+                    "Content-Language: en",
+                    "X-Content-Type-Options: nosniff",
+                    "X-Frame-Options: SAMEORIGIN",
+                    "Expires: Sun, 19 Nov 1978 05:00:00 GMT",
+                    "X-Generator: Drupal 8 (https://www.drupal.org)",
+                    "Content-Security-Policy-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-Content-Security-Policy-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-WebKit-CSP-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-XSS-Protection: 1",
+                    "Strict-Transport-Security: max-age=2678400",
+                    "X-Drupal-Cache: MISS",
+                    "Last-Modified: Fri, 23 Oct 2020 02:27:17 GMT",
+                    "ETag: \"1603420037-gzip\"",
+                    "Vary: Accept-Encoding",
+                    "X-MYVHOST: executed",
+                    "X-ISPHP: executed",
+                    "Content-Type: application/rss+xml; charset=utf-8",
+                    "Date: Fri, 23 Oct 2020 02:27:17 GMT",
+                    "Connection: keep-alive"
+                ],
+                "resourceName": [
+                    "https://developers.redhat.com/taxonomy/term/9/feed"
+                ],
+                "diagnostic_id": [
+                    "c5b9237d-8d31-4b05-90c1-188493a8f759"
+                ],
+                "_lw_batch_id_s": "XC1cFbGwG0",
+                "_archiving_indexing_pipeline_id": [
+                    "developers_collection"
+                ],
+                "_lw_parser_absolute_resource_name_s": "https://developers.redhat.com/taxonomy/term/9/feed",
+                "_archiving_collection_id": [
+                    "developers_collection"
+                ],
+                "_initialContent_type": [
+                    "application/rss+xml"
+                ],
+                "_lw_data_source_pipeline_s": "developers_collection",
+                "_lw_parser_resource_name_s": "https://developers.redhat.com/taxonomy/term/9/feed",
+                "_archiving_raw_doc_id": [
+                    "web.web_developers_redhat_com-developers_collection.https://developers.redhat.com/taxonomy/term/9/feed"
+                ],
+                "_lw_parser_diagnostic_id_s": "c5b9237d-8d31-4b05-90c1-188493a8f759",
+                "_lw_parser_content_type_s": "application/rss+xml",
+                "id": "https://developers.redhat.com/taxonomy/term/9/feed",
+                "lastModified_dt": "2020-10-23T02:27:17Z",
+                "parsing_depth": [
+                    1
+                ],
+                "Content_Length": [
+                    14171
+                ],
+                "max_parsing_depth": [
+                    16
+                ],
+                "fetchedDate_dt": "2020-10-23T02:27:16Z",
+                "length": [
+                    33429
+                ],
+                "_lw_parser_parsing_depth_i": 1,
+                "parsing_time": [
+                    7
+                ],
+                "Content_Encoding_str": [
+                    "UTF-8"
+                ],
+                "_archiving_collection_id_str": [
+                    "developers_collection"
+                ],
+                "charSet_str": [
+                    "UTF-8"
+                ],
+                "type_str": [
+                    "webpage"
+                ],
+                "_initialContent_type_str": [
+                    "application/rss+xml"
+                ],
+                "_initialResource_name_str": [
+                    "https://developers.redhat.com/taxonomy/term/9/feed"
+                ],
+                "X_Parsed_By_str": [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.feed.FeedParser"
+                ],
+                "absolute_resource_name_str": [
+                    "https://developers.redhat.com/taxonomy/term/9/feed"
+                ],
+                "dc_title_str": [
+                    "RHEL"
+                ],
+                "_archiving_parser_id_str": [
+                    "developers"
+                ],
+                "mimeType_str": [
+                    "application/rss+xml"
+                ],
+                "resourceName_str": [
+                    "https://developers.redhat.com/taxonomy/term/9/feed"
+                ],
+                "parsing_str": [
+                    "ok"
+                ],
+                "Content_Type_str": [
+                    "application/rss+xml"
+                ],
+                "_archiving_raw_doc_id_str": [
+                    "web.web_developers_redhat_com-developers_collection.https://developers.redhat.com/taxonomy/term/9/feed"
+                ],
+                "diagnostic_id_str": [
+                    "c5b9237d-8d31-4b05-90c1-188493a8f759"
+                ],
+                "_version_": 1681307769619087360,
+                "_archiving_indexing_pipeline_id_str": [
+                    "developers_collection"
+                ],
+                "tikaHandlerLocation_str": [
+                    "https://developers.redhat.com/taxonomy/term/9/feed"
+                ],
+                "score": 21.619064
+            },
+            {
+                "og_image": [
+                    "https://developers.redhat.com/blog/wp-content/uploads/2018/11/RH_EnterpriseLinux8beta_stacked_RGB_Blue.png"
+                ],
+                "twitter_card": [
+                    "summary_large_image"
+                ],
+                "og_site_name": [
+                    "Red Hat Developer"
+                ],
+                "mimeType": [
+                    "text/html"
+                ],
+                "_lw_data_source_collection_s": "developers_collection",
+                "type": [
+                    "webpage",
+                    "article"
+                ],
+                "og_description": [
+                    "Of course RHEL 8 has Python, both Python 3 and 2. Changes in RHEL 8 such as platform python and application streams improve the Python experience in RHEL."
+                ],
+                "twitter_creator": [
+                    "@1angdon"
+                ],
+                "article_publisher": [
+                    "https://www.facebook.com/RedHatDeveloperProgram/"
+                ],
+                "og_image_secure_url": [
+                    "https://developers.redhat.com/blog/wp-content/uploads/2018/11/RH_EnterpriseLinux8beta_stacked_RGB_Blue.png"
+                ],
+                "parent_s": "https://developers.redhat.com/blog/sitemap_index.xml",
+                "_lw_data_source_type_s": "lucid.web/web",
+                "charSet": [
+                    "UTF-8"
+                ],
+                "_lw_data_source_s": "web_developers_redhat_com-developers_collection",
+                "meta_charset": [
+                    "UTF-8"
+                ],
+                "_lw_parser_type_s": "html",
+                "article_tag": [
+                    "python",
+                    "Red Hat Enterprise Linux",
+                    "RHEL",
+                    "RHEL8"
+                ],
+                "og_locale": [
+                    "en_US"
+                ],
+                "post_author": [
+                    "Langdon White"
+                ],
+                "_lw_parser_id_s": "7966ed39-7ec4-4812-bd5e-ae4e33026001",
+                "description": [
+                    "Of course RHEL 8 has Python, both Python 3 and 2. Changes in RHEL 8 such as platform python and application streams improve the Python experience in RHEL."
+                ],
+                "generator": [
+                    "WordPress 5.1.4"
+                ],
+                "title": [
+                    "What, No Python in RHEL 8 Beta? - Red Hat Developer"
+                ],
+                "twitter_image": [
+                    "https://developers.redhat.com/blog/wp-content/uploads/2018/11/RH_EnterpriseLinux8beta_stacked_RGB_Blue.png"
+                ],
+                "twitter_site": [
+                    "@rhdevelopers"
+                ],
+                "_lw_parser_charset_s": "UTF-8",
+                "signature_s": "{\"canonical_tag\":\"https://developers.redhat.com/blog/2018/11/27/what-no-python-in-rhel-8-beta/\",\"etag\":null}",
+                "og_type": [
+                    "article"
+                ],
+                "article_section": [
+                    "RHEL8"
+                ],
+                "twitter_title": [
+                    "What, No Python in RHEL 8 Beta? - Red Hat Developer"
+                ],
+                "og_title": [
+                    "What, No Python in RHEL 8 Beta? - Red Hat Developer"
+                ],
+                "responseHeaders_ss": [
+                    "Server: Apache",
+                    "Cache-Control: public, max-age=1800",
+                    "Link: <https://developers.redhat.com/blog/wp-json/>; rel=\"https://api.w.org/\"",
+                    "Link: <https://wp.me/p8e0as-2fnp>; rel=shortlink",
+                    "Content-Type: text/html; charset=UTF-8",
+                    "Vary: Accept-Encoding",
+                    "Date: Thu, 22 Oct 2020 21:38:35 GMT",
+                    "Connection: keep-alive",
+                    "Set-Cookie: gdpr[consent_types]=%5B%5D; expires=Fri, 22-Oct-2021 21:38:35 GMT; Max-Age=31536000; path=/",
+                    "Set-Cookie: gdpr[allowed_cookies]=%5B%22__CT_Data%22%2C%22_CT_RS_%22%2C%22BIGipServer%7Eprod%7Erhd-blog-http%22%2C%22check%22%2C%22dmdbase_cdc%22%2C%22gdpr%5Ballowed_cookies%5D%22%2C%22gdpr%5Bconsent_types%5D%22%2C%22sat_ppv%22%2C%22sat_prevPage%22%2C%22WRUID%22%2C%22atlassian.xsrf.token%22%2C%22JSESSIONID%22%2C%22DWRSESSIONID%22%2C%22%22%2C%22%22%5D; expires=Fri, 22-Oct-2021 21:38:35 GMT; Max-Age=31536000; path=/",
+                    "Set-Cookie: BIGipServer~prod~rhd-blog-http=1936131338.20480.0000; path=/; Httponly; Secure"
+                ],
+                "_lw_batch_id_s": "XC1cFbGwG0",
+                "_lw_parser_absolute_resource_name_s": "https://developers.redhat.com/blog/2018/11/27/what-no-python-in-rhel-8-beta/",
+                "viewport": [
+                    "width=device-width, initial-scale=1"
+                ],
+                "twitter_description": [
+                    "Of course RHEL 8 has Python, both Python 3 and 2. Changes in RHEL 8 such as platform python and application streams improve the Python experience in RHEL."
+                ],
+                "_lw_data_source_pipeline_s": "developers_collection",
+                "_lw_parser_resource_name_s": "https://developers.redhat.com/blog/2018/11/27/what-no-python-in-rhel-8-beta/",
+                "_lw_parser_diagnostic_id_s": "8b88f119-c735-4744-a920-5cc13125d34c",
+                "og_url": [
+                    "https://developers.redhat.com/blog/2018/11/27/what-no-python-in-rhel-8-beta/"
+                ],
+                "_lw_parser_content_type_s": "text/html",
+                "id": "https://developers.redhat.com/blog/2018/11/27/what-no-python-in-rhel-8-beta/",
+                "article_published_time": [
+                    "2018-11-27T15:00:04Z"
+                ],
+                "og_image_width": [
+                    994
+                ],
+                "lastModified_dt": "2018-12-19T21:42:09Z",
+                "article_modified_time": [
+                    "2018-12-19T21:42:09Z"
+                ],
+                "fetchedDate_dt": "2020-10-22T21:38:33Z",
+                "_lw_parser_parsing_depth_i": 1,
+                "length": [
+                    121393
+                ],
+                "og_image_height": [
+                    538
+                ],
+                "og_updated_time": [
+                    "2018-12-19T21:42:09Z"
+                ],
+                "fb_app_id": [
+                    1650560165253145
+                ],
+                "twitter_site_str": [
+                    "@rhdevelopers"
+                ],
+                "og_description_str": [
+                    "Of course RHEL 8 has Python, both Python 3 and 2. Changes in RHEL 8 such as platform python and application streams improve the Python experience in RHEL."
+                ],
+                "twitter_card_str": [
+                    "summary_large_image"
+                ],
+                "og_site_name_str": [
+                    "Red Hat Developer"
+                ],
+                "meta_charset_str": [
+                    "UTF-8"
+                ],
+                "article_tag_str": [
+                    "RHEL",
+                    "RHEL8",
+                    "Red Hat Enterprise Linux",
+                    "python"
+                ],
+                "post_author_str": [
+                    "Langdon White"
+                ],
+                "charSet_str": [
+                    "UTF-8"
+                ],
+                "type_str": [
+                    "article",
+                    "webpage"
+                ],
+                "og_title_str": [
+                    "What, No Python in RHEL 8 Beta? - Red Hat Developer"
+                ],
+                "article_publisher_str": [
+                    "https://www.facebook.com/RedHatDeveloperProgram/"
+                ],
+                "twitter_description_str": [
+                    "Of course RHEL 8 has Python, both Python 3 and 2. Changes in RHEL 8 such as platform python and application streams improve the Python experience in RHEL."
+                ],
+                "og_url_str": [
+                    "https://developers.redhat.com/blog/2018/11/27/what-no-python-in-rhel-8-beta/"
+                ],
+                "article_section_str": [
+                    "RHEL8"
+                ],
+                "og_locale_str": [
+                    "en_US"
+                ],
+                "generator_str": [
+                    "WordPress 5.1.4"
+                ],
+                "og_image_secure_url_str": [
+                    "https://developers.redhat.com/blog/wp-content/uploads/2018/11/RH_EnterpriseLinux8beta_stacked_RGB_Blue.png"
+                ],
+                "mimeType_str": [
+                    "text/html"
+                ],
+                "og_image_str": [
+                    "https://developers.redhat.com/blog/wp-content/uploads/2018/11/RH_EnterpriseLinux8beta_stacked_RGB_Blue.png"
+                ],
+                "og_type_str": [
+                    "article"
+                ],
+                "viewport_str": [
+                    "width=device-width, initial-scale=1"
+                ],
+                "twitter_creator_str": [
+                    "@1angdon"
+                ],
+                "twitter_title_str": [
+                    "What, No Python in RHEL 8 Beta? - Red Hat Developer"
+                ],
+                "_version_": 1681289605928714240,
+                "twitter_image_str": [
+                    "https://developers.redhat.com/blog/wp-content/uploads/2018/11/RH_EnterpriseLinux8beta_stacked_RGB_Blue.png"
+                ],
+                "score": 19.210636
+            },
+            {
+                "og_image": [
+                    "https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "twitter_card": [
+                    "summary"
+                ],
+                "og_site_name": [
+                    "Red Hat Developer"
+                ],
+                "twitter_url": [
+                    "https://developers.redhat.com/products/softwarecollections/download"
+                ],
+                "mimeType": [
+                    "text/html"
+                ],
+                "_lw_data_source_collection_s": "developers_collection",
+                "type": [
+                    "webpage",
+                    "product"
+                ],
+                "parent_s": "https://developers.redhat.com/sitemap.xml",
+                "rhd_node_type": [
+                    "product"
+                ],
+                "_lw_data_source_type_s": "lucid.web/web",
+                "charSet": [
+                    "UTF-8"
+                ],
+                "_lw_data_source_s": "web_developers_redhat_com-developers_collection",
+                "meta_charset": [
+                    "utf-8"
+                ],
+                "_lw_parser_type_s": "html",
+                "Generator": [
+                    "Drupal 8 (https://www.drupal.org)"
+                ],
+                "msapplication_config": [
+                    "/themes/custom/rhdp/favicons/browserconfig.xml"
+                ],
+                "theme_color": [
+                    "#ffffff"
+                ],
+                "_lw_parser_id_s": "7966ed39-7ec4-4812-bd5e-ae4e33026001",
+                "HandheldFriendly": [
+                    true
+                ],
+                "description": [
+                    "Download Software Collections for RHEL"
+                ],
+                "title": [
+                    "Red Hat Developer | Software Collections Download"
+                ],
+                "twitter_image": [
+                    "https://developers.redhat.com||https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "twitter_site": [
+                    "@rhdevelopers"
+                ],
+                "_lw_parser_charset_s": "UTF-8",
+                "signature_s": "{\"canonical_tag\":\"https://developers.redhat.com/products/softwarecollections/download\",\"etag\":\"\\\"1603406212-gzip\\\"\"}",
+                "twitter_title": [
+                    "Software Collections Download"
+                ],
+                "og_type": [
+                    "webpage"
+                ],
+                "og_title": [
+                    "Software Collections Download"
+                ],
+                "responseHeaders_ss": [
+                    "Server: Apache",
+                    "X-Powered-By: PHP/7.3.11",
+                    "Cache-Control: max-age=10800, public",
+                    "X-Drupal-Dynamic-Cache: MISS",
+                    "Link: <https://developers.redhat.com/products/softwarecollections/download>; rel=\"canonical\"",
+                    "X-UA-Compatible: IE=edge",
+                    "Content-Language: en",
+                    "X-Content-Type-Options: nosniff",
+                    "X-Frame-Options: SAMEORIGIN",
+                    "Expires: Sun, 19 Nov 1978 05:00:00 GMT",
+                    "X-Generator: Drupal 8 (https://www.drupal.org)",
+                    "Content-Security-Policy-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-Content-Security-Policy-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-WebKit-CSP-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-XSS-Protection: 1",
+                    "Strict-Transport-Security: max-age=2678400",
+                    "X-Drupal-Cache: MISS",
+                    "Last-Modified: Thu, 22 Oct 2020 22:36:52 GMT",
+                    "ETag: \"1603406212-gzip\"",
+                    "Vary: Accept-Encoding",
+                    "X-MYVHOST: executed",
+                    "X-ISPHP: executed",
+                    "Content-Type: text/html; charset=UTF-8",
+                    "Date: Thu, 22 Oct 2020 22:36:52 GMT",
+                    "Connection: keep-alive"
+                ],
+                "_lw_batch_id_s": "XC1cFbGwG0",
+                "msapplication_TileColor": [
+                    "#da532c"
+                ],
+                "referrer": [
+                    "no-referrer"
+                ],
+                "_lw_parser_absolute_resource_name_s": "https://developers.redhat.com/products/softwarecollections/download",
+                "MobileOptimized": [
+                    "width"
+                ],
+                "viewport": [
+                    "width=device-width, initial-scale=1.0"
+                ],
+                "_lw_data_source_pipeline_s": "developers_collection",
+                "_lw_parser_resource_name_s": "https://developers.redhat.com/products/softwarecollections/download",
+                "_lw_parser_diagnostic_id_s": "90e510a5-1b4f-419b-a9c5-76fc761b482c",
+                "og_url": [
+                    "https://developers.redhat.com/products/softwarecollections/download"
+                ],
+                "_lw_parser_content_type_s": "text/html",
+                "id": "https://developers.redhat.com/products/softwarecollections/download",
+                "lastModified_dt": "2020-09-30T22:29:51Z",
+                "fetchedDate_dt": "2020-10-22T22:36:51Z",
+                "_lw_parser_parsing_depth_i": 1,
+                "length": [
+                    79349
+                ],
+                "og_updated_time": [
+                    "2020-09-30T22:29:51Z"
+                ],
+                "twitter_site_str": [
+                    "@rhdevelopers"
+                ],
+                "Generator_str": [
+                    "Drupal 8 (https://www.drupal.org)"
+                ],
+                "msapplication_TileColor_str": [
+                    "#da532c"
+                ],
+                "twitter_card_str": [
+                    "summary"
+                ],
+                "og_site_name_str": [
+                    "Red Hat Developer"
+                ],
+                "meta_charset_str": [
+                    "utf-8"
+                ],
+                "charSet_str": [
+                    "UTF-8"
+                ],
+                "type_str": [
+                    "product",
+                    "webpage"
+                ],
+                "rhd_node_type_str": [
+                    "product"
+                ],
+                "og_title_str": [
+                    "Software Collections Download"
+                ],
+                "referrer_str": [
+                    "no-referrer"
+                ],
+                "og_url_str": [
+                    "https://developers.redhat.com/products/softwarecollections/download"
+                ],
+                "theme_color_str": [
+                    "#ffffff"
+                ],
+                "mimeType_str": [
+                    "text/html"
+                ],
+                "twitter_url_str": [
+                    "https://developers.redhat.com/products/softwarecollections/download"
+                ],
+                "msapplication_config_str": [
+                    "/themes/custom/rhdp/favicons/browserconfig.xml"
+                ],
+                "og_image_str": [
+                    "https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "og_type_str": [
+                    "webpage"
+                ],
+                "MobileOptimized_str": [
+                    "width"
+                ],
+                "viewport_str": [
+                    "width=device-width, initial-scale=1.0"
+                ],
+                "twitter_title_str": [
+                    "Software Collections Download"
+                ],
+                "_version_": 1681293273100976128,
+                "twitter_image_str": [
+                    "https://developers.redhat.com||https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "score": 18.67454
+            },
+            {
+                "og_image": [
+                    "https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "twitter_card": [
+                    "summary"
+                ],
+                "og_site_name": [
+                    "Red Hat Developer"
+                ],
+                "twitter_url": [
+                    "https://developers.redhat.com/products/sap/download"
+                ],
+                "mimeType": [
+                    "text/html"
+                ],
+                "_lw_data_source_collection_s": "developers_collection",
+                "type": [
+                    "webpage",
+                    "product"
+                ],
+                "parent_s": "https://developers.redhat.com/sitemap.xml",
+                "rhd_node_type": [
+                    "product"
+                ],
+                "_lw_data_source_type_s": "lucid.web/web",
+                "charSet": [
+                    "UTF-8"
+                ],
+                "_lw_data_source_s": "web_developers_redhat_com-developers_collection",
+                "meta_charset": [
+                    "utf-8"
+                ],
+                "_lw_parser_type_s": "html",
+                "Generator": [
+                    "Drupal 8 (https://www.drupal.org)"
+                ],
+                "msapplication_config": [
+                    "/themes/custom/rhdp/favicons/browserconfig.xml"
+                ],
+                "theme_color": [
+                    "#ffffff"
+                ],
+                "_lw_parser_id_s": "7966ed39-7ec4-4812-bd5e-ae4e33026001",
+                "HandheldFriendly": [
+                    true
+                ],
+                "description": [
+                    "Download of RHEL for SAP Solutions"
+                ],
+                "title": [
+                    "Red Hat Developer | Red Hat Enterprise Linux for SAP Solutions Download"
+                ],
+                "twitter_image": [
+                    "https://developers.redhat.com||https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "twitter_site": [
+                    "@rhdevelopers"
+                ],
+                "_lw_parser_charset_s": "UTF-8",
+                "signature_s": "{\"canonical_tag\":\"https://developers.redhat.com/products/sap/download\",\"etag\":\"\\\"1603406753-gzip\\\"\"}",
+                "twitter_title": [
+                    "Red Hat Enterprise Linux for SAP Solutions Download"
+                ],
+                "og_type": [
+                    "webpage"
+                ],
+                "og_title": [
+                    "Red Hat Enterprise Linux for SAP Solutions Download"
+                ],
+                "responseHeaders_ss": [
+                    "Server: Apache",
+                    "X-Powered-By: PHP/7.3.11",
+                    "Cache-Control: max-age=10800, public",
+                    "X-Drupal-Dynamic-Cache: MISS",
+                    "Link: <https://developers.redhat.com/products/sap/download>; rel=\"canonical\"",
+                    "X-UA-Compatible: IE=edge",
+                    "Content-Language: en",
+                    "X-Content-Type-Options: nosniff",
+                    "X-Frame-Options: SAMEORIGIN",
+                    "Expires: Sun, 19 Nov 1978 05:00:00 GMT",
+                    "X-Generator: Drupal 8 (https://www.drupal.org)",
+                    "Content-Security-Policy-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-Content-Security-Policy-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-WebKit-CSP-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-XSS-Protection: 1",
+                    "Strict-Transport-Security: max-age=2678400",
+                    "X-Drupal-Cache: MISS",
+                    "Last-Modified: Thu, 22 Oct 2020 22:45:53 GMT",
+                    "ETag: \"1603406753-gzip\"",
+                    "Vary: Accept-Encoding",
+                    "X-MYVHOST: executed",
+                    "X-ISPHP: executed",
+                    "Content-Type: text/html; charset=UTF-8",
+                    "Date: Thu, 22 Oct 2020 22:45:54 GMT",
+                    "Connection: keep-alive"
+                ],
+                "_lw_batch_id_s": "XC1cFbGwG0",
+                "msapplication_TileColor": [
+                    "#da532c"
+                ],
+                "referrer": [
+                    "no-referrer"
+                ],
+                "_lw_parser_absolute_resource_name_s": "https://developers.redhat.com/products/sap/download",
+                "MobileOptimized": [
+                    "width"
+                ],
+                "viewport": [
+                    "width=device-width, initial-scale=1.0"
+                ],
+                "_lw_data_source_pipeline_s": "developers_collection",
+                "_lw_parser_resource_name_s": "https://developers.redhat.com/products/sap/download",
+                "_lw_parser_diagnostic_id_s": "691fcfdc-33a9-45e2-a8cb-cdc121bff222",
+                "og_url": [
+                    "https://developers.redhat.com/products/sap/download"
+                ],
+                "_lw_parser_content_type_s": "text/html",
+                "id": "https://developers.redhat.com/products/sap/download",
+                "lastModified_dt": "2020-05-21T20:03:07Z",
+                "fetchedDate_dt": "2020-10-22T22:45:52Z",
+                "_lw_parser_parsing_depth_i": 1,
+                "length": [
+                    78283
+                ],
+                "og_updated_time": [
+                    "2020-05-21T20:03:07Z"
+                ],
+                "twitter_site_str": [
+                    "@rhdevelopers"
+                ],
+                "Generator_str": [
+                    "Drupal 8 (https://www.drupal.org)"
+                ],
+                "msapplication_TileColor_str": [
+                    "#da532c"
+                ],
+                "twitter_card_str": [
+                    "summary"
+                ],
+                "og_site_name_str": [
+                    "Red Hat Developer"
+                ],
+                "meta_charset_str": [
+                    "utf-8"
+                ],
+                "charSet_str": [
+                    "UTF-8"
+                ],
+                "type_str": [
+                    "product",
+                    "webpage"
+                ],
+                "rhd_node_type_str": [
+                    "product"
+                ],
+                "og_title_str": [
+                    "Red Hat Enterprise Linux for SAP Solutions Download"
+                ],
+                "referrer_str": [
+                    "no-referrer"
+                ],
+                "og_url_str": [
+                    "https://developers.redhat.com/products/sap/download"
+                ],
+                "theme_color_str": [
+                    "#ffffff"
+                ],
+                "mimeType_str": [
+                    "text/html"
+                ],
+                "twitter_url_str": [
+                    "https://developers.redhat.com/products/sap/download"
+                ],
+                "msapplication_config_str": [
+                    "/themes/custom/rhdp/favicons/browserconfig.xml"
+                ],
+                "og_image_str": [
+                    "https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "og_type_str": [
+                    "webpage"
+                ],
+                "MobileOptimized_str": [
+                    "width"
+                ],
+                "viewport_str": [
+                    "width=device-width, initial-scale=1.0"
+                ],
+                "twitter_title_str": [
+                    "Red Hat Enterprise Linux for SAP Solutions Download"
+                ],
+                "_version_": 1681293858286075904,
+                "twitter_image_str": [
+                    "https://developers.redhat.com||https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "score": 18.224722
+            },
+            {
+                "og_image": [
+                    "https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "twitter_card": [
+                    "summary"
+                ],
+                "og_site_name": [
+                    "Red Hat Developer"
+                ],
+                "twitter_url": [
+                    "https://developers.redhat.com/products/sap/overview"
+                ],
+                "mimeType": [
+                    "text/html"
+                ],
+                "_lw_data_source_collection_s": "developers_collection",
+                "type": [
+                    "webpage",
+                    "product"
+                ],
+                "parent_s": "https://developers.redhat.com/sitemap.xml",
+                "rhd_node_type": [
+                    "product"
+                ],
+                "_lw_data_source_type_s": "lucid.web/web",
+                "charSet": [
+                    "UTF-8"
+                ],
+                "_lw_data_source_s": "web_developers_redhat_com-developers_collection",
+                "meta_charset": [
+                    "utf-8"
+                ],
+                "_lw_parser_type_s": "html",
+                "Generator": [
+                    "Drupal 8 (https://www.drupal.org)"
+                ],
+                "msapplication_config": [
+                    "/themes/custom/rhdp/favicons/browserconfig.xml"
+                ],
+                "theme_color": [
+                    "#ffffff"
+                ],
+                "_lw_parser_id_s": "7966ed39-7ec4-4812-bd5e-ae4e33026001",
+                "HandheldFriendly": [
+                    true
+                ],
+                "description": [
+                    "Overview of RHEL for SAP solutions"
+                ],
+                "title": [
+                    "Red Hat Developer | Red Hat Enterprise Linux for SAP Solutions Overview"
+                ],
+                "twitter_image": [
+                    "https://developers.redhat.com||https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "twitter_site": [
+                    "@rhdevelopers"
+                ],
+                "_lw_parser_charset_s": "UTF-8",
+                "signature_s": "{\"canonical_tag\":\"https://developers.redhat.com/products/sap/overview\",\"etag\":\"\\\"1603408307-gzip\\\"\"}",
+                "twitter_title": [
+                    "Red Hat Enterprise Linux for SAP Solutions Overview"
+                ],
+                "og_type": [
+                    "webpage"
+                ],
+                "og_title": [
+                    "Red Hat Enterprise Linux for SAP Solutions Overview"
+                ],
+                "responseHeaders_ss": [
+                    "Server: Apache",
+                    "X-Powered-By: PHP/7.3.11",
+                    "Cache-Control: max-age=10800, public",
+                    "X-Drupal-Dynamic-Cache: MISS",
+                    "Link: <https://developers.redhat.com/products/sap/overview>; rel=\"canonical\"",
+                    "X-UA-Compatible: IE=edge",
+                    "Content-Language: en",
+                    "X-Content-Type-Options: nosniff",
+                    "X-Frame-Options: SAMEORIGIN",
+                    "Expires: Sun, 19 Nov 1978 05:00:00 GMT",
+                    "X-Generator: Drupal 8 (https://www.drupal.org)",
+                    "Content-Security-Policy-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-Content-Security-Policy-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-WebKit-CSP-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-XSS-Protection: 1",
+                    "Strict-Transport-Security: max-age=2678400",
+                    "X-Drupal-Cache: MISS",
+                    "Last-Modified: Thu, 22 Oct 2020 23:11:47 GMT",
+                    "ETag: \"1603408307-gzip\"",
+                    "Vary: Accept-Encoding",
+                    "X-MYVHOST: executed",
+                    "X-ISPHP: executed",
+                    "Content-Type: text/html; charset=UTF-8",
+                    "Date: Thu, 22 Oct 2020 23:11:48 GMT",
+                    "Connection: keep-alive"
+                ],
+                "_lw_batch_id_s": "XC1cFbGwG0",
+                "msapplication_TileColor": [
+                    "#da532c"
+                ],
+                "referrer": [
+                    "no-referrer"
+                ],
+                "_lw_parser_absolute_resource_name_s": "https://developers.redhat.com/products/sap/overview",
+                "MobileOptimized": [
+                    "width"
+                ],
+                "viewport": [
+                    "width=device-width, initial-scale=1.0"
+                ],
+                "_lw_data_source_pipeline_s": "developers_collection",
+                "_lw_parser_resource_name_s": "https://developers.redhat.com/products/sap/overview",
+                "_lw_parser_diagnostic_id_s": "a59048ee-4450-4221-a0cc-b355dd8ab41e",
+                "og_url": [
+                    "https://developers.redhat.com/products/sap/overview"
+                ],
+                "_lw_parser_content_type_s": "text/html",
+                "id": "https://developers.redhat.com/products/sap/overview",
+                "lastModified_dt": "2020-05-21T20:03:07Z",
+                "fetchedDate_dt": "2020-10-22T23:11:45Z",
+                "_lw_parser_parsing_depth_i": 1,
+                "length": [
+                    81231
+                ],
+                "og_updated_time": [
+                    "2020-05-21T20:03:07Z"
+                ],
+                "twitter_site_str": [
+                    "@rhdevelopers"
+                ],
+                "Generator_str": [
+                    "Drupal 8 (https://www.drupal.org)"
+                ],
+                "msapplication_TileColor_str": [
+                    "#da532c"
+                ],
+                "twitter_card_str": [
+                    "summary"
+                ],
+                "og_site_name_str": [
+                    "Red Hat Developer"
+                ],
+                "meta_charset_str": [
+                    "utf-8"
+                ],
+                "charSet_str": [
+                    "UTF-8"
+                ],
+                "type_str": [
+                    "product",
+                    "webpage"
+                ],
+                "rhd_node_type_str": [
+                    "product"
+                ],
+                "og_title_str": [
+                    "Red Hat Enterprise Linux for SAP Solutions Overview"
+                ],
+                "referrer_str": [
+                    "no-referrer"
+                ],
+                "og_url_str": [
+                    "https://developers.redhat.com/products/sap/overview"
+                ],
+                "theme_color_str": [
+                    "#ffffff"
+                ],
+                "mimeType_str": [
+                    "text/html"
+                ],
+                "twitter_url_str": [
+                    "https://developers.redhat.com/products/sap/overview"
+                ],
+                "msapplication_config_str": [
+                    "/themes/custom/rhdp/favicons/browserconfig.xml"
+                ],
+                "og_image_str": [
+                    "https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "og_type_str": [
+                    "webpage"
+                ],
+                "MobileOptimized_str": [
+                    "width"
+                ],
+                "viewport_str": [
+                    "width=device-width, initial-scale=1.0"
+                ],
+                "twitter_title_str": [
+                    "Red Hat Enterprise Linux for SAP Solutions Overview"
+                ],
+                "_version_": 1681295470436024320,
+                "twitter_image_str": [
+                    "https://developers.redhat.com||https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "score": 18.224722
+            },
+            {
+                "og_image": [
+                    "https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "twitter_card": [
+                    "summary"
+                ],
+                "og_site_name": [
+                    "Red Hat Developer"
+                ],
+                "twitter_url": [
+                    "https://developers.redhat.com/products/rhel/download"
+                ],
+                "mimeType": [
+                    "text/html"
+                ],
+                "_lw_data_source_collection_s": "developers_collection",
+                "type": [
+                    "webpage",
+                    "product"
+                ],
+                "parent_s": "https://developers.redhat.com/sitemap.xml",
+                "rhd_node_type": [
+                    "product"
+                ],
+                "_lw_data_source_type_s": "lucid.web/web",
+                "charSet": [
+                    "UTF-8"
+                ],
+                "_lw_data_source_s": "web_developers_redhat_com-developers_collection",
+                "meta_charset": [
+                    "utf-8"
+                ],
+                "_lw_parser_type_s": "html",
+                "Generator": [
+                    "Drupal 8 (https://www.drupal.org)"
+                ],
+                "msapplication_config": [
+                    "/themes/custom/rhdp/favicons/browserconfig.xml"
+                ],
+                "theme_color": [
+                    "#ffffff"
+                ],
+                "_lw_parser_id_s": "7966ed39-7ec4-4812-bd5e-ae4e33026001",
+                "HandheldFriendly": [
+                    true
+                ],
+                "description": [
+                    "Download current or older versions of RHEL."
+                ],
+                "title": [
+                    "Red Hat Developer | Red Hat Enterprise Linux Download"
+                ],
+                "twitter_image": [
+                    "https://developers.redhat.com||https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "twitter_site": [
+                    "@rhdevelopers"
+                ],
+                "_lw_parser_charset_s": "UTF-8",
+                "signature_s": "{\"canonical_tag\":\"https://developers.redhat.com/products/rhel/download\",\"etag\":\"\\\"1603388579-gzip\\\"\"}",
+                "twitter_title": [
+                    "Red Hat Enterprise Linux Download"
+                ],
+                "og_type": [
+                    "webpage"
+                ],
+                "og_title": [
+                    "Red Hat Enterprise Linux Download"
+                ],
+                "responseHeaders_ss": [
+                    "Server: Apache",
+                    "X-Powered-By: PHP/7.3.11",
+                    "Cache-Control: max-age=10800, public",
+                    "X-Drupal-Dynamic-Cache: MISS",
+                    "Link: <https://developers.redhat.com/products/rhel/download>; rel=\"canonical\"",
+                    "X-UA-Compatible: IE=edge",
+                    "Content-Language: en",
+                    "X-Content-Type-Options: nosniff",
+                    "X-Frame-Options: SAMEORIGIN",
+                    "Expires: Sun, 19 Nov 1978 05:00:00 GMT",
+                    "X-Generator: Drupal 8 (https://www.drupal.org)",
+                    "Content-Security-Policy-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-Content-Security-Policy-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-WebKit-CSP-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-XSS-Protection: 1",
+                    "Strict-Transport-Security: max-age=2678400",
+                    "X-Drupal-Cache: HIT",
+                    "Last-Modified: Thu, 22 Oct 2020 17:42:59 GMT",
+                    "ETag: \"1603388579-gzip\"",
+                    "Vary: Accept-Encoding",
+                    "X-MYVHOST: executed",
+                    "X-ISPHP: executed",
+                    "Content-Type: text/html; charset=UTF-8",
+                    "Date: Thu, 22 Oct 2020 22:34:47 GMT",
+                    "Connection: keep-alive"
+                ],
+                "_lw_batch_id_s": "XC1cFbGwG0",
+                "msapplication_TileColor": [
+                    "#da532c"
+                ],
+                "referrer": [
+                    "no-referrer"
+                ],
+                "_lw_parser_absolute_resource_name_s": "https://developers.redhat.com/products/rhel/download",
+                "MobileOptimized": [
+                    "width"
+                ],
+                "viewport": [
+                    "width=device-width, initial-scale=1.0"
+                ],
+                "_lw_data_source_pipeline_s": "developers_collection",
+                "_lw_parser_resource_name_s": "https://developers.redhat.com/products/rhel/download",
+                "_lw_parser_diagnostic_id_s": "5cb75e6b-687f-4a66-8c63-792870d184dc",
+                "og_url": [
+                    "https://developers.redhat.com/products/rhel/download"
+                ],
+                "_lw_parser_content_type_s": "text/html",
+                "id": "https://developers.redhat.com/products/rhel/download",
+                "lastModified_dt": "2020-09-30T22:29:51Z",
+                "fetchedDate_dt": "2020-10-22T22:34:46Z",
+                "_lw_parser_parsing_depth_i": 1,
+                "length": [
+                    79232
+                ],
+                "og_updated_time": [
+                    "2020-09-30T22:29:51Z"
+                ],
+                "twitter_site_str": [
+                    "@rhdevelopers"
+                ],
+                "Generator_str": [
+                    "Drupal 8 (https://www.drupal.org)"
+                ],
+                "msapplication_TileColor_str": [
+                    "#da532c"
+                ],
+                "twitter_card_str": [
+                    "summary"
+                ],
+                "og_site_name_str": [
+                    "Red Hat Developer"
+                ],
+                "meta_charset_str": [
+                    "utf-8"
+                ],
+                "charSet_str": [
+                    "UTF-8"
+                ],
+                "type_str": [
+                    "product",
+                    "webpage"
+                ],
+                "rhd_node_type_str": [
+                    "product"
+                ],
+                "og_title_str": [
+                    "Red Hat Enterprise Linux Download"
+                ],
+                "referrer_str": [
+                    "no-referrer"
+                ],
+                "og_url_str": [
+                    "https://developers.redhat.com/products/rhel/download"
+                ],
+                "theme_color_str": [
+                    "#ffffff"
+                ],
+                "mimeType_str": [
+                    "text/html"
+                ],
+                "twitter_url_str": [
+                    "https://developers.redhat.com/products/rhel/download"
+                ],
+                "msapplication_config_str": [
+                    "/themes/custom/rhdp/favicons/browserconfig.xml"
+                ],
+                "og_image_str": [
+                    "https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "og_type_str": [
+                    "webpage"
+                ],
+                "MobileOptimized_str": [
+                    "width"
+                ],
+                "viewport_str": [
+                    "width=device-width, initial-scale=1.0"
+                ],
+                "twitter_title_str": [
+                    "Red Hat Enterprise Linux Download"
+                ],
+                "_version_": 1681293148160000000,
+                "twitter_image_str": [
+                    "https://developers.redhat.com||https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "score": 17.796066
+            },
+            {
+                "og_image": [
+                    "https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "msapplication_config": [
+                    "/themes/custom/rhdp2/favicons/browserconfig.xml"
+                ],
+                "theme_color": [
+                    "#ffffff"
+                ],
+                "og_site_name": [
+                    "Red Hat Developer"
+                ],
+                "_lw_parser_id_s": "7966ed39-7ec4-4812-bd5e-ae4e33026001",
+                "HandheldFriendly": [
+                    true
+                ],
+                "mimeType": [
+                    "text/html"
+                ],
+                "title": [
+                    "RHEL | Red Hat Developer"
+                ],
+                "_lw_data_source_collection_s": "developers_collection",
+                "type": [
+                    "webpage"
+                ],
+                "_lw_parser_charset_s": "UTF-8",
+                "parent_s": "https://developers.redhat.com/cheat-sheets/red-hat-enterprise-linux-8-beta/",
+                "signature_s": "{\"canonical_tag\":\"https://developers.redhat.com/taxonomy/term/9\",\"etag\":\"\\\"1603418489-gzip\\\"\"}",
+                "_lw_data_source_type_s": "lucid.web/web",
+                "charSet": [
+                    "UTF-8"
+                ],
+                "_lw_data_source_s": "web_developers_redhat_com-developers_collection",
+                "meta_charset": [
+                    "utf-8"
+                ],
+                "og_type": [
+                    "webpage"
+                ],
+                "_lw_parser_type_s": "html",
+                "og_title": [
+                    "RHEL"
+                ],
+                "responseHeaders_ss": [
+                    "Server: Apache",
+                    "X-Powered-By: PHP/7.3.11",
+                    "Cache-Control: max-age=10800, public",
+                    "X-Drupal-Dynamic-Cache: MISS",
+                    "Link: <https://developers.redhat.com/taxonomy/term/9>; rel=\"canonical\", </taxonomy/term/9/delete>; rel=\"delete-form\", </taxonomy/term/9/edit>; rel=\"edit-form\", </taxonomy/term/9/latest>; rel=\"latest-version\"",
+                    "X-UA-Compatible: IE=edge",
+                    "Content-Language: en",
+                    "X-Content-Type-Options: nosniff",
+                    "X-Frame-Options: SAMEORIGIN",
+                    "Expires: Sun, 19 Nov 1978 05:00:00 GMT",
+                    "X-Generator: Drupal 8 (https://www.drupal.org)",
+                    "Content-Security-Policy-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-Content-Security-Policy-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-WebKit-CSP-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-XSS-Protection: 1",
+                    "Strict-Transport-Security: max-age=2678400",
+                    "X-Drupal-Cache: MISS",
+                    "Last-Modified: Fri, 23 Oct 2020 02:01:29 GMT",
+                    "ETag: \"1603418489-gzip\"",
+                    "Vary: Accept-Encoding",
+                    "X-MYVHOST: executed",
+                    "X-ISPHP: executed",
+                    "Content-Type: text/html; charset=UTF-8",
+                    "X-Akamai-Path-Stats: [1:60264:923736]",
+                    "Date: Fri, 23 Oct 2020 02:01:32 GMT",
+                    "Connection: keep-alive"
+                ],
+                "_lw_batch_id_s": "XC1cFbGwG0",
+                "msapplication_TileColor": [
+                    "#da532c"
+                ],
+                "_lw_parser_absolute_resource_name_s": "https://developers.redhat.com/taxonomy/term/9",
+                "MobileOptimized": [
+                    "width"
+                ],
+                "viewport": [
+                    "width=device-width, initial-scale=1.0"
+                ],
+                "_lw_data_source_pipeline_s": "developers_collection",
+                "_lw_parser_resource_name_s": "https://developers.redhat.com/taxonomy/term/9",
+                "_lw_parser_diagnostic_id_s": "6ba41a6e-1253-4b75-b499-1fda989d676f",
+                "_lw_parser_content_type_s": "text/html",
+                "Generator": [
+                    "Drupal 8 (https://www.drupal.org)"
+                ],
+                "id": "https://developers.redhat.com/taxonomy/term/9",
+                "lastModified_dt": "2020-10-23T02:01:29Z",
+                "fetchedDate_dt": "2020-10-23T02:01:29Z",
+                "length": [
+                    69833
+                ],
+                "_lw_parser_parsing_depth_i": 1,
+                "Generator_str": [
+                    "Drupal 8 (https://www.drupal.org)"
+                ],
+                "msapplication_TileColor_str": [
+                    "#da532c"
+                ],
+                "og_site_name_str": [
+                    "Red Hat Developer"
+                ],
+                "meta_charset_str": [
+                    "utf-8"
+                ],
+                "charSet_str": [
+                    "UTF-8"
+                ],
+                "type_str": [
+                    "webpage"
+                ],
+                "og_title_str": [
+                    "RHEL"
+                ],
+                "theme_color_str": [
+                    "#ffffff"
+                ],
+                "mimeType_str": [
+                    "text/html"
+                ],
+                "msapplication_config_str": [
+                    "/themes/custom/rhdp2/favicons/browserconfig.xml"
+                ],
+                "og_image_str": [
+                    "https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "og_type_str": [
+                    "webpage"
+                ],
+                "MobileOptimized_str": [
+                    "width"
+                ],
+                "viewport_str": [
+                    "width=device-width, initial-scale=1.0"
+                ],
+                "_version_": 1681306149573361664,
+                "score": 17.557978
+            },
+            {
+                "twitter_card": [
+                    "summary_large_image"
+                ],
+                "post_author": [
+                    "Mike Guerette"
+                ],
+                "og_site_name": [
+                    "Red Hat Developer"
+                ],
+                "_lw_parser_id_s": "7966ed39-7ec4-4812-bd5e-ae4e33026001",
+                "generator": [
+                    "WordPress 5.1.4"
+                ],
+                "description": [
+                    "Here are a few interesting excerpts from the recent Red Hat Enterprise Linux 5.10 announcement for general availability and today’s Red Hat Enterprise Linux 6.5 beta announcement. Everything you need to grow your career. With your free Red Hat Developer program membership, unlock our library of cheat sheets and ebooks on next-generation application development. SIGN UP Red …"
+                ],
+                "mimeType": [
+                    "text/html"
+                ],
+                "title": [
+                    "RHEL 5.10 Generally Available, RHEL 6.5 in Beta! - Red Hat Developer"
+                ],
+                "_lw_data_source_collection_s": "developers_collection",
+                "type": [
+                    "webpage",
+                    "article"
+                ],
+                "og_description": [
+                    "Here are a few interesting excerpts from the recent Red Hat Enterprise Linux 5.10 announcement for general availability and today’s Red Hat Enterprise Linux 6.5 beta announcement. Everything you need to grow your career. With your free Red Hat Developer program membership, unlock our library of cheat sheets and ebooks on next-generation application development. SIGN UP Red …"
+                ],
+                "twitter_creator": [
+                    "@MikGue"
+                ],
+                "article_publisher": [
+                    "https://www.facebook.com/RedHatDeveloperProgram/"
+                ],
+                "twitter_site": [
+                    "@rhdevelopers"
+                ],
+                "_lw_parser_charset_s": "UTF-8",
+                "parent_s": "https://developers.redhat.com/blog/sitemap_index.xml",
+                "signature_s": "{\"canonical_tag\":\"https://developers.redhat.com/blog/2013/10/08/rhel-5-10ga-6-5beta/\",\"etag\":null}",
+                "_lw_data_source_type_s": "lucid.web/web",
+                "charSet": [
+                    "UTF-8"
+                ],
+                "_lw_data_source_s": "web_developers_redhat_com-developers_collection",
+                "meta_charset": [
+                    "UTF-8"
+                ],
+                "og_type": [
+                    "article"
+                ],
+                "article_section": [
+                    "Red Hat Enterprise Linux"
+                ],
+                "twitter_title": [
+                    "RHEL 5.10 Generally Available, RHEL 6.5 in Beta! - Red Hat Developer"
+                ],
+                "_lw_parser_type_s": "html",
+                "og_title": [
+                    "RHEL 5.10 Generally Available, RHEL 6.5 in Beta! - Red Hat Developer"
+                ],
+                "responseHeaders_ss": [
+                    "Server: Apache",
+                    "Cache-Control: public, max-age=1800",
+                    "Link: <https://developers.redhat.com/blog/wp-json/>; rel=\"https://api.w.org/\"",
+                    "Link: <https://wp.me/p8e0as-1IGs>; rel=shortlink",
+                    "Content-Type: text/html; charset=UTF-8",
+                    "X-Akamai-Transformed: 9 - 0 pmb=mRUM,1",
+                    "Vary: Accept-Encoding",
+                    "Date: Thu, 22 Oct 2020 22:29:05 GMT",
+                    "Connection: keep-alive",
+                    "Set-Cookie: gdpr[consent_types]=%5B%5D; expires=Fri, 22-Oct-2021 22:29:05 GMT; Max-Age=31536000; path=/",
+                    "Set-Cookie: gdpr[allowed_cookies]=%5B%22__CT_Data%22%2C%22_CT_RS_%22%2C%22BIGipServer%7Eprod%7Erhd-blog-http%22%2C%22check%22%2C%22dmdbase_cdc%22%2C%22gdpr%5Ballowed_cookies%5D%22%2C%22gdpr%5Bconsent_types%5D%22%2C%22sat_ppv%22%2C%22sat_prevPage%22%2C%22WRUID%22%2C%22atlassian.xsrf.token%22%2C%22JSESSIONID%22%2C%22DWRSESSIONID%22%2C%22%22%2C%22%22%5D; expires=Fri, 22-Oct-2021 22:29:05 GMT; Max-Age=31536000; path=/",
+                    "Set-Cookie: BIGipServer~prod~rhd-blog-http=1936131338.20480.0000; path=/; Httponly; Secure"
+                ],
+                "_lw_batch_id_s": "XC1cFbGwG0",
+                "_lw_parser_absolute_resource_name_s": "https://developers.redhat.com/blog/2013/10/08/rhel-5-10ga-6-5beta/",
+                "viewport": [
+                    "width=device-width, initial-scale=1"
+                ],
+                "twitter_description": [
+                    "Here are a few interesting excerpts from the recent Red Hat Enterprise Linux 5.10 announcement for general availability and today’s Red Hat Enterprise Linux 6.5 beta announcement. Everything you need to grow your career. With your free Red Hat Developer program membership, unlock our library of cheat sheets and ebooks on next-generation application development. SIGN UP Red […]"
+                ],
+                "_lw_data_source_pipeline_s": "developers_collection",
+                "og_locale": [
+                    "en_US"
+                ],
+                "_lw_parser_resource_name_s": "https://developers.redhat.com/blog/2013/10/08/rhel-5-10ga-6-5beta/",
+                "_lw_parser_diagnostic_id_s": "c4ebe5df-cda6-48f6-8ec5-4cc7c7fb8c9b",
+                "og_url": [
+                    "https://developers.redhat.com/blog/2013/10/08/rhel-5-10ga-6-5beta/"
+                ],
+                "_lw_parser_content_type_s": "text/html",
+                "id": "https://developers.redhat.com/blog/2013/10/08/rhel-5-10ga-6-5beta/",
+                "article_published_time": [
+                    "2013-10-08T15:58:14Z"
+                ],
+                "lastModified_dt": "2018-04-06T01:39:48Z",
+                "article_modified_time": [
+                    "2018-04-06T01:39:48Z"
+                ],
+                "fetchedDate_dt": "2020-10-22T22:29:03Z",
+                "length": [
+                    119489
+                ],
+                "_lw_parser_parsing_depth_i": 1,
+                "og_updated_time": [
+                    "2018-04-06T01:39:48Z"
+                ],
+                "fb_app_id": [
+                    1650560165253145
+                ],
+                "twitter_site_str": [
+                    "@rhdevelopers"
+                ],
+                "og_description_str": [
+                    "Here are a few interesting excerpts from the recent Red Hat Enterprise Linux 5.10 announcement for general availability and today’s Red Hat Enterprise Linux 6.5 beta announcement. Everything you need to grow your career. With your free Red Hat Developer pr"
+                ],
+                "twitter_card_str": [
+                    "summary_large_image"
+                ],
+                "og_site_name_str": [
+                    "Red Hat Developer"
+                ],
+                "meta_charset_str": [
+                    "UTF-8"
+                ],
+                "post_author_str": [
+                    "Mike Guerette"
+                ],
+                "charSet_str": [
+                    "UTF-8"
+                ],
+                "type_str": [
+                    "article",
+                    "webpage"
+                ],
+                "og_title_str": [
+                    "RHEL 5.10 Generally Available, RHEL 6.5 in Beta! - Red Hat Developer"
+                ],
+                "article_publisher_str": [
+                    "https://www.facebook.com/RedHatDeveloperProgram/"
+                ],
+                "twitter_description_str": [
+                    "Here are a few interesting excerpts from the recent Red Hat Enterprise Linux 5.10 announcement for general availability and today’s Red Hat Enterprise Linux 6.5 beta announcement. Everything you need to grow your career. With your free Red Hat Developer pr"
+                ],
+                "og_url_str": [
+                    "https://developers.redhat.com/blog/2013/10/08/rhel-5-10ga-6-5beta/"
+                ],
+                "article_section_str": [
+                    "Red Hat Enterprise Linux"
+                ],
+                "og_locale_str": [
+                    "en_US"
+                ],
+                "generator_str": [
+                    "WordPress 5.1.4"
+                ],
+                "mimeType_str": [
+                    "text/html"
+                ],
+                "og_type_str": [
+                    "article"
+                ],
+                "viewport_str": [
+                    "width=device-width, initial-scale=1"
+                ],
+                "twitter_creator_str": [
+                    "@MikGue"
+                ],
+                "twitter_title_str": [
+                    "RHEL 5.10 Generally Available, RHEL 6.5 in Beta! - Red Hat Developer"
+                ],
+                "_version_": 1681292787250626560,
+                "score": 17.428333
+            },
+            {
+                "og_image": [
+                    "https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "twitter_card": [
+                    "summary"
+                ],
+                "og_site_name": [
+                    "Red Hat Developer"
+                ],
+                "twitter_url": [
+                    "https://developers.redhat.com/products/rhel/hello-world"
+                ],
+                "mimeType": [
+                    "text/html"
+                ],
+                "_lw_data_source_collection_s": "developers_collection",
+                "type": [
+                    "webpage",
+                    "product"
+                ],
+                "parent_s": "https://developers.redhat.com/sitemap.xml",
+                "rhd_node_type": [
+                    "product"
+                ],
+                "_lw_data_source_type_s": "lucid.web/web",
+                "charSet": [
+                    "UTF-8"
+                ],
+                "_lw_data_source_s": "web_developers_redhat_com-developers_collection",
+                "meta_charset": [
+                    "utf-8"
+                ],
+                "_lw_parser_type_s": "html",
+                "Generator": [
+                    "Drupal 8 (https://www.drupal.org)"
+                ],
+                "msapplication_config": [
+                    "/themes/custom/rhdp/favicons/browserconfig.xml"
+                ],
+                "theme_color": [
+                    "#ffffff"
+                ],
+                "_lw_parser_id_s": "7966ed39-7ec4-4812-bd5e-ae4e33026001",
+                "HandheldFriendly": [
+                    true
+                ],
+                "description": [
+                    "Learn how to install and start using RHEL"
+                ],
+                "title": [
+                    "Red Hat Developer | Red Hat Enterprise Linux Hello World"
+                ],
+                "twitter_image": [
+                    "https://developers.redhat.com||https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "twitter_site": [
+                    "@rhdevelopers"
+                ],
+                "_lw_parser_charset_s": "UTF-8",
+                "signature_s": "{\"canonical_tag\":\"https://developers.redhat.com/products/rhel/hello-world\",\"etag\":\"\\\"1603406306-gzip\\\"\"}",
+                "twitter_title": [
+                    "Red Hat Enterprise Linux Hello World"
+                ],
+                "og_type": [
+                    "webpage"
+                ],
+                "og_title": [
+                    "Red Hat Enterprise Linux Hello World"
+                ],
+                "responseHeaders_ss": [
+                    "Server: Apache",
+                    "X-Powered-By: PHP/7.3.11",
+                    "Cache-Control: max-age=10800, public",
+                    "X-Drupal-Dynamic-Cache: MISS",
+                    "Link: <https://developers.redhat.com/products/rhel/hello-world>; rel=\"canonical\"",
+                    "X-UA-Compatible: IE=edge",
+                    "Content-Language: en",
+                    "X-Content-Type-Options: nosniff",
+                    "X-Frame-Options: SAMEORIGIN",
+                    "Expires: Sun, 19 Nov 1978 05:00:00 GMT",
+                    "X-Generator: Drupal 8 (https://www.drupal.org)",
+                    "Content-Security-Policy-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-Content-Security-Policy-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-WebKit-CSP-Report-Only: default-src https:; script-src 'unsafe-inline' 'unsafe-eval' https:; object-src https:; style-src 'unsafe-inline' https:; img-src https:; media-src https:; frame-src https:; font-src https: data:; connect-src https:; report-uri //report-csp-violation",
+                    "X-XSS-Protection: 1",
+                    "Strict-Transport-Security: max-age=2678400",
+                    "X-Drupal-Cache: MISS",
+                    "Last-Modified: Thu, 22 Oct 2020 22:38:26 GMT",
+                    "ETag: \"1603406306-gzip\"",
+                    "Vary: Accept-Encoding",
+                    "X-MYVHOST: executed",
+                    "X-ISPHP: executed",
+                    "Content-Type: text/html; charset=UTF-8",
+                    "Date: Thu, 22 Oct 2020 23:14:48 GMT",
+                    "Connection: keep-alive"
+                ],
+                "_lw_batch_id_s": "XC1cFbGwG0",
+                "msapplication_TileColor": [
+                    "#da532c"
+                ],
+                "referrer": [
+                    "no-referrer"
+                ],
+                "_lw_parser_absolute_resource_name_s": "https://developers.redhat.com/products/rhel/hello-world",
+                "MobileOptimized": [
+                    "width"
+                ],
+                "viewport": [
+                    "width=device-width, initial-scale=1.0"
+                ],
+                "_lw_data_source_pipeline_s": "developers_collection",
+                "_lw_parser_resource_name_s": "https://developers.redhat.com/products/rhel/hello-world",
+                "_lw_parser_diagnostic_id_s": "ae1ae8be-c88c-4fa4-95c8-a0084536f8f5",
+                "og_url": [
+                    "https://developers.redhat.com/products/rhel/hello-world"
+                ],
+                "_lw_parser_content_type_s": "text/html",
+                "id": "https://developers.redhat.com/products/rhel/hello-world",
+                "lastModified_dt": "2020-09-30T22:29:51Z",
+                "fetchedDate_dt": "2020-10-22T23:14:47Z",
+                "_lw_parser_parsing_depth_i": 1,
+                "length": [
+                    325801
+                ],
+                "og_updated_time": [
+                    "2020-09-30T22:29:51Z"
+                ],
+                "twitter_site_str": [
+                    "@rhdevelopers"
+                ],
+                "Generator_str": [
+                    "Drupal 8 (https://www.drupal.org)"
+                ],
+                "msapplication_TileColor_str": [
+                    "#da532c"
+                ],
+                "twitter_card_str": [
+                    "summary"
+                ],
+                "og_site_name_str": [
+                    "Red Hat Developer"
+                ],
+                "meta_charset_str": [
+                    "utf-8"
+                ],
+                "charSet_str": [
+                    "UTF-8"
+                ],
+                "type_str": [
+                    "product",
+                    "webpage"
+                ],
+                "rhd_node_type_str": [
+                    "product"
+                ],
+                "og_title_str": [
+                    "Red Hat Enterprise Linux Hello World"
+                ],
+                "referrer_str": [
+                    "no-referrer"
+                ],
+                "og_url_str": [
+                    "https://developers.redhat.com/products/rhel/hello-world"
+                ],
+                "theme_color_str": [
+                    "#ffffff"
+                ],
+                "mimeType_str": [
+                    "text/html"
+                ],
+                "twitter_url_str": [
+                    "https://developers.redhat.com/products/rhel/hello-world"
+                ],
+                "msapplication_config_str": [
+                    "/themes/custom/rhdp/favicons/browserconfig.xml"
+                ],
+                "og_image_str": [
+                    "https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "og_type_str": [
+                    "webpage"
+                ],
+                "MobileOptimized_str": [
+                    "width"
+                ],
+                "viewport_str": [
+                    "width=device-width, initial-scale=1.0"
+                ],
+                "twitter_title_str": [
+                    "Red Hat Enterprise Linux Hello World"
+                ],
+                "_version_": 1681295667179290624,
+                "twitter_image_str": [
+                    "https://developers.redhat.com||https://developers.redhat.com/themes/custom/rhdp2/images/metatags/metatag-image-global.png"
+                ],
+                "score": 17.417492
+            },
+            {
+                "dc_description": [
+                    "Stories and tutorials on the latest technologies in cloud application development."
+                ],
+                "_lw_parser_id_s": "73f04e8a-c241-4d92-a0ea-411f3ddd0d9a",
+                "absolute_resource_name": [
+                    "https://developers.redhat.com/blog/2015/03/11/introducing-the-rhel-container-for-rhel-atomic-host/feed/atom/"
+                ],
+                "description": [
+                    "Stories and tutorials on the latest technologies in cloud application development."
+                ],
+                "mimeType": [
+                    "application/atom+xml"
+                ],
+                "type": [
+                    "webpage"
+                ],
+                "title": [
+                    "Comments on Introducing the \"rhel-tools\" for RHEL Atomic Host"
+                ],
+                "tikaHandlerLocation": [
+                    "https://developers.redhat.com/blog/2015/03/11/introducing-the-rhel-container-for-rhel-atomic-host/feed/atom/"
+                ],
+                "parsing": [
+                    "ok"
+                ],
+                "_lw_data_source_collection_s": "developers_collection",
+                "_lw_parser_charset_s": "UTF-8",
+                "parent_s": "https://developers.redhat.com/blog/tag/atomic/feed/atom/",
+                "dc_title": [
+                    "Comments on Introducing the \"rhel-tools\" for RHEL Atomic Host"
+                ],
+                "signature_s": "{\"etag\":\"\\\"596f8b1804960a361a291ae651174dbb\\\"\"}",
+                "Content_Encoding": [
+                    "UTF-8"
+                ],
+                "_lw_data_source_type_s": "lucid.web/web",
+                "_archiving_parser_id": [
+                    "developers"
+                ],
+                "Content_Type": [
+                    "application/atom+xml"
+                ],
+                "charSet": [
+                    "UTF-8"
+                ],
+                "_lw_data_source_s": "web_developers_redhat_com-developers_collection",
+                "X_Parsed_By": [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.feed.FeedParser"
+                ],
+                "_lw_parser_type_s": "tika",
+                "_initialResource_name": [
+                    "https://developers.redhat.com/blog/2015/03/11/introducing-the-rhel-container-for-rhel-atomic-host/feed/atom/"
+                ],
+                "responseHeaders_ss": [
+                    "Server: Apache",
+                    "Last-Modified: Thu, 22 Oct 2020 23:31:58 GMT",
+                    "ETag: \"596f8b1804960a361a291ae651174dbb\"",
+                    "Cache-Control: public, max-age=1800",
+                    "Link: <https://developers.redhat.com/blog/wp-json/>; rel=\"https://api.w.org/\"",
+                    "Link: <https://wp.me/p8e0as-1K11>; rel=shortlink",
+                    "Content-Type: application/atom+xml; charset=UTF-8",
+                    "Content-Length: 8444",
+                    "Date: Fri, 23 Oct 2020 02:20:12 GMT",
+                    "Connection: keep-alive",
+                    "Set-Cookie: gdpr[consent_types]=%5B%5D; expires=Sat, 23-Oct-2021 02:20:12 GMT; Max-Age=31536000; path=/",
+                    "Set-Cookie: gdpr[allowed_cookies]=%5B%22__CT_Data%22%2C%22_CT_RS_%22%2C%22BIGipServer%7Eprod%7Erhd-blog-http%22%2C%22check%22%2C%22dmdbase_cdc%22%2C%22gdpr%5Ballowed_cookies%5D%22%2C%22gdpr%5Bconsent_types%5D%22%2C%22sat_ppv%22%2C%22sat_prevPage%22%2C%22WRUID%22%2C%22atlassian.xsrf.token%22%2C%22JSESSIONID%22%2C%22DWRSESSIONID%22%2C%22%22%2C%22%22%5D; expires=Sat, 23-Oct-2021 02:20:12 GMT; Max-Age=31536000; path=/",
+                    "Set-Cookie: BIGipServer~prod~rhd-blog-http=1952908554.20480.0000; path=/; Httponly; Secure"
+                ],
+                "resourceName": [
+                    "https://developers.redhat.com/blog/2015/03/11/introducing-the-rhel-container-for-rhel-atomic-host/feed/atom/"
+                ],
+                "diagnostic_id": [
+                    "0f3a56cd-a06e-488d-9e90-e9e58872235d"
+                ],
+                "_lw_batch_id_s": "XC1cFbGwG0",
+                "_archiving_indexing_pipeline_id": [
+                    "developers_collection"
+                ],
+                "_lw_parser_absolute_resource_name_s": "https://developers.redhat.com/blog/2015/03/11/introducing-the-rhel-container-for-rhel-atomic-host/feed/atom/",
+                "_archiving_collection_id": [
+                    "developers_collection"
+                ],
+                "_initialContent_type": [
+                    "application/atom+xml"
+                ],
+                "_lw_data_source_pipeline_s": "developers_collection",
+                "_lw_parser_resource_name_s": "https://developers.redhat.com/blog/2015/03/11/introducing-the-rhel-container-for-rhel-atomic-host/feed/atom/",
+                "_archiving_raw_doc_id": [
+                    "web.web_developers_redhat_com-developers_collection.https://developers.redhat.com/blog/2015/03/11/introducing-the-rhel-container-for-rhel-atomic-host/feed/atom/"
+                ],
+                "_lw_parser_diagnostic_id_s": "0f3a56cd-a06e-488d-9e90-e9e58872235d",
+                "_lw_parser_content_type_s": "application/atom+xml",
+                "id": "https://developers.redhat.com/blog/2015/03/11/introducing-the-rhel-container-for-rhel-atomic-host/feed/atom/",
+                "lastModified_dt": "2020-10-22T23:31:58Z",
+                "parsing_depth": [
+                    1
+                ],
+                "Content_Length": [
+                    669
+                ],
+                "max_parsing_depth": [
+                    16
+                ],
+                "fetchedDate_dt": "2020-10-23T02:20:10Z",
+                "length": [
+                    8444
+                ],
+                "_lw_parser_parsing_depth_i": 1,
+                "parsing_time": [
+                    4
+                ],
+                "Content_Encoding_str": [
+                    "UTF-8"
+                ],
+                "_archiving_collection_id_str": [
+                    "developers_collection"
+                ],
+                "charSet_str": [
+                    "UTF-8"
+                ],
+                "type_str": [
+                    "webpage"
+                ],
+                "_initialContent_type_str": [
+                    "application/atom+xml"
+                ],
+                "_initialResource_name_str": [
+                    "https://developers.redhat.com/blog/2015/03/11/introducing-the-rhel-container-for-rhel-atomic-host/feed/atom/"
+                ],
+                "dc_description_str": [
+                    "Stories and tutorials on the latest technologies in cloud application development."
+                ],
+                "X_Parsed_By_str": [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.feed.FeedParser"
+                ],
+                "absolute_resource_name_str": [
+                    "https://developers.redhat.com/blog/2015/03/11/introducing-the-rhel-container-for-rhel-atomic-host/feed/atom/"
+                ],
+                "dc_title_str": [
+                    "Comments on Introducing the \"rhel-tools\" for RHEL Atomic Host"
+                ],
+                "_archiving_parser_id_str": [
+                    "developers"
+                ],
+                "mimeType_str": [
+                    "application/atom+xml"
+                ],
+                "resourceName_str": [
+                    "https://developers.redhat.com/blog/2015/03/11/introducing-the-rhel-container-for-rhel-atomic-host/feed/atom/"
+                ],
+                "parsing_str": [
+                    "ok"
+                ],
+                "Content_Type_str": [
+                    "application/atom+xml"
+                ],
+                "_archiving_raw_doc_id_str": [
+                    "web.web_developers_redhat_com-developers_collection.https://developers.redhat.com/blog/2015/03/11/introducing-the-rhel-container-for-rhel-atomic-host/feed/atom/"
+                ],
+                "diagnostic_id_str": [
+                    "0f3a56cd-a06e-488d-9e90-e9e58872235d"
+                ],
+                "_version_": 1681307327981944832,
+                "_archiving_indexing_pipeline_id_str": [
+                    "developers_collection"
+                ],
+                "tikaHandlerLocation_str": [
+                    "https://developers.redhat.com/blog/2015/03/11/introducing-the-rhel-container-for-rhel-atomic-host/feed/atom/"
+                ],
+                "score": 17.326426
+            }
+        ]
+    },
+    "responseHeader": {
+        "zkConnected": true,
+        "status": 0,
+        "QTime": 40,
+        "params": {
+            "hl": "true",
+            "f.rhd_taxonomy_topic.facet.missing": "true",
+            "fl": [
+                "id,score,description,title,type",
+                "*",
+                "score",
+                "title",
+                "description",
+                "type"
+            ],
+            "f.rhd_taxonomy_product_line.facet.limit": "10",
+            "f.rhd_taxonomy_product.facet.mincount": "1",
+            "fq": "",
+            "f.rhd_taxonomy_product_line.facet.mincount": "1",
+            "f.type.facet.sort": "count",
+            "defType": "edismax",
+            "qf": [
+                "title^3.0",
+                "description^2.5",
+                "body^2.0",
+                "rhd_taxonomy_product^5.0",
+                "rhd_taxonomy_topic^3.0"
+            ],
+            "f.type.facet.limit": "10",
+            "f.rhd_taxonomy_product.facet.missing": "true",
+            "f.rhd_taxonomy_topic.facet.mincount": "1",
+            "context": "app:developers",
+            "hl.fl": "description",
+            "f.type.facet.missing": "true",
+            "facet.field": [
+                "type",
+                "rhd_taxonomy_product",
+                "rhd_taxonomy_product_line",
+                "rhd_taxonomy_topic"
+            ],
+            "f.rhd_taxonomy_product_line.facet.sort": "count",
+            "f.rhd_taxonomy_product_line.facet.missing": "true",
+            "lw.pipelineId": "developers_collection",
+            "start": "0",
+            "f.type.facet.mincount": "1",
+            "isFusionQuery": "true",
+            "f.rhd_taxonomy_product.facet.limit": "10",
+            "rows": "10",
+            "f.rhd_taxonomy_topic.facet.limit": "10",
+            "fusionQueryId": "IGsMhcbA2v",
+            "q": "rhel",
+            "f.rhd_taxonomy_topic.facet.sort": "count",
+            "facet": "true",
+            "f.rhd_taxonomy_product.facet.sort": "count"
+        }
+    },
+    "highlighting": {
+        "https://developers.redhat.com/taxonomy/term/9/feed": {},
+        "https://developers.redhat.com/blog/2018/11/27/what-no-python-in-rhel-8-beta/": {
+            "description": [
+                "Of course <em>RHEL</em> 8 has Python, both Python 3 and 2. Changes in <em>RHEL</em> 8 such as platform python and"
+            ]
+        },
+        "https://developers.redhat.com/products/softwarecollections/download": {
+            "description": [
+                "Download Software Collections for <em>RHEL</em>"
+            ]
+        },
+        "https://developers.redhat.com/products/sap/download": {
+            "description": [
+                "Download of <em>RHEL</em> for SAP Solutions"
+            ]
+        },
+        "https://developers.redhat.com/products/sap/overview": {
+            "description": [
+                "Overview of <em>RHEL</em> for SAP solutions"
+            ]
+        },
+        "https://developers.redhat.com/products/rhel/download": {
+            "description": [
+                "Download current or older versions of <em>RHEL</em>."
+            ]
+        },
+        "https://developers.redhat.com/taxonomy/term/9": {},
+        "https://developers.redhat.com/blog/2013/10/08/rhel-5-10ga-6-5beta/": {},
+        "https://developers.redhat.com/products/rhel/hello-world": {
+            "description": [
+                "Learn how to install and start using <em>RHEL</em>"
+            ]
+        },
+        "https://developers.redhat.com/blog/2015/03/11/introducing-the-rhel-container-for-rhel-atomic-host/feed/atom/": {}
+    },
+    "facet_counts": {
+        "facet_queries": {},
+        "facet_fields": {
+            "type": [
+                "webpage",
+                2478,
+                "article",
+                609,
+                "product",
+                34,
+                "assembly_page",
+                29,
+                "video_resource",
+                16,
+                "topic_page",
+                11,
+                "cheat_sheet",
+                10,
+                "katacoda_individual_lesson",
+                10,
+                "learning_path",
+                6,
+                "page",
+                6,
+                null,
+                0
+            ],
+            "rhd_taxonomy_product": [
+                "rhel",
+                71,
+                "collections",
+                16,
+                "software",
+                16,
+                "developer",
+                15,
+                "for",
+                15,
+                "toolset",
+                15,
+                "container",
+                14,
+                "sap",
+                14,
+                "solutions",
+                14,
+                "development",
+                12,
+                null,
+                2383
+            ],
+            "rhd_taxonomy_product_line": [
+                "rhel",
+                50,
+                "hat",
+                11,
+                "red",
+                11,
+                "integration",
+                8,
+                "automation",
+                7,
+                "openshift",
+                7,
+                "process",
+                7,
+                "runtimes",
+                7,
+                "codeready",
+                6,
+                "middleware",
+                3,
+                null,
+                2419
+            ],
+            "rhd_taxonomy_topic": [
+                "rhel",
+                200,
+                "linux",
+                154,
+                "hat",
+                86,
+                "red",
+                86,
+                "developer",
+                79,
+                "software",
+                69,
+                "collections",
+                65,
+                "enterprise",
+                51,
+                "tools",
+                46,
+                "containers",
+                45,
+                null,
+                1859
+            ]
+        },
+        "facet_ranges": {},
+        "facet_intervals": {},
+        "facet_heatmaps": {}
+    }
+}
