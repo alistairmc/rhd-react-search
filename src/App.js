@@ -40,7 +40,7 @@ class App extends React.Component {
       searchFetchStartParam: "start",
       searchFetchSort: "", // The name of any field ASC or DESC
       searchFetchSortParam: "sort",
-      searchFacetQuery: "",
+      searchFacetQuery: "type",
       searchLoading: true,
       searchResults: {
         response: {

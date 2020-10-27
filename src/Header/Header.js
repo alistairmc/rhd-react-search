@@ -1,5 +1,5 @@
 import React from "react";
-import { SearchInput, Button, Grid, GridItem, Title, TitleSizes } from '@patternfly/react-core';
+import { SearchInput, Form, Button, Grid, GridItem, Title, TitleSizes } from '@patternfly/react-core';
 
 
 class Header extends React.Component { 
@@ -30,25 +30,27 @@ class Header extends React.Component {
     render() {
         return (
         <>  
-            <Grid hasGutter>
-                <GridItem span={12}>
-                    <Title headingLevel="h1" size={TitleSizes['4xl']}>
-                        Search Test Component
-                    </Title>
-                </GridItem>
-                <GridItem span={10}>
-                    <SearchInput 
-                        id='searchInput'
-                        placeholder='Search' 
-                        value={this.state.value} 
-                        onChange={this.handleChange}
-                        onClear={this.handleClear}
-                    />
-                </GridItem>
-                <GridItem  span={2}>
-                    <Button isBlock type="button" onClick={this.handleSubmit}>Search</Button>
-                </GridItem>
-            </Grid>
+            <Form onSubmit={this.handleSubmit}>
+                <Grid hasGutter>
+                    <GridItem span={12}>
+                        <Title headingLevel="h1" size={TitleSizes['4xl']}>
+                            Search Test Component
+                        </Title>
+                    </GridItem>
+                    <GridItem span={10}>
+                        <SearchInput 
+                            id='searchInput'
+                            placeholder='Search' 
+                            value={this.state.value} 
+                            onChange={this.handleChange}
+                            onClear={this.handleClear}
+                        />
+                    </GridItem>
+                    <GridItem  span={2}>
+                        <Button isBlock type="submit">Search</Button>
+                    </GridItem>
+                </Grid>
+            </Form>
         </>
         )
     }
