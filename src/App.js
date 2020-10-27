@@ -19,7 +19,7 @@ class App extends React.Component {
 
     //set to output debug to console
     this.isDebug = true;
-    this.useAlternateUrl = false;
+    this.useAlternateUrl = true;
 
     //track app debug refresh
     this.appUpdateCount = 0;
@@ -30,7 +30,7 @@ class App extends React.Component {
 
     // Set app state
     this.state = {
-      searchQuery: "rhel",
+      searchQuery: "test",
       searchApiUrl: "https://api.developers.redhat.com/search/v1/?",
       searchAlternateApiUrl: "/test-results/results.json?",
       searchQueryParam: "q",
@@ -41,7 +41,7 @@ class App extends React.Component {
       searchFetchSort: "", // The name of any field ASC or DESC
       searchFetchSortParam: "sort",
       searchFacetQuery: "type",
-      searchLoading: true,
+      searchLoading: false,
       searchResults: {
         response: {
           numFound: 0,
@@ -74,9 +74,8 @@ class App extends React.Component {
     }
     this.setState({
       searchQuery: value
-    },
-    function () {
-      this.loadSearchData();
+    }, function () {
+      this.runNewSearch();
     })
   }
 
@@ -94,7 +93,7 @@ class App extends React.Component {
       searchQuery: value
     },
     function () {
-      this.loadSearchData();
+      this.runNewSearch();
     })
   }
 
@@ -121,6 +120,14 @@ class App extends React.Component {
     return urlString;
   }
 
+  //Build search API URL
+  buildSearchPreFetchAutocompleteUrl() {
+    let tmpSearchUrl = this.useAlternateUrl ? this.state.searchAlternateApiUrl : this.state.searchApiUrl;
+    let urlString = `${tmpSearchUrl + this.state.searchQueryParam}=auto&${this.state.searchFetchStartParam}=0&${this.state.searchFetchRowsParam}=1`;
+    this.debugThis(this.appUpdateCount, "buildSearchApiUrl", urlString);
+    return urlString;
+  }
+
   //Process Search Results
   processSearchResults() {
     this.debugThis(
@@ -133,7 +140,7 @@ class App extends React.Component {
   //Run New Search process
   runNewSearch() {
     //check if search already running
-    if(this.state.searchLoading) {
+    if(this.state.searchLoading || this.state.searchQuery === "") {
       return;
     }
 
@@ -184,7 +191,7 @@ class App extends React.Component {
   componentDidMount() {
     this.debugThis(this.appUpdateCount, "componentDidMount", "");
 
-    this.loadSearchData();
+    this.runNewSearch();
   }
 
   render() {

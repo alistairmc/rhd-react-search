@@ -30,7 +30,7 @@ class Header extends React.Component {
     render() {
         return (
         <>  
-            <Form onSubmit={this.handleSubmit}>
+            <Form>
                 <Grid hasGutter>
                     <GridItem span={12}>
                         <Title headingLevel="h1" size={TitleSizes['4xl']}>
@@ -47,7 +47,7 @@ class Header extends React.Component {
                         />
                     </GridItem>
                     <GridItem  span={2}>
-                        <Button isBlock type="submit">Search</Button>
+                        <Button isBlock onClick={this.handleSubmit} type="button">Search</Button>
                     </GridItem>
                 </Grid>
             </Form>

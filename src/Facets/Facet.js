@@ -1,11 +1,12 @@
 import React from "react";
-import { Accordion, AccordionItem, AccordionContent, AccordionToggle } from '@patternfly/react-core';
+import { Accordion, AccordionItem, AccordionContent, AccordionToggle, Badge } from '@patternfly/react-core';
 
 class Facet extends React.Component { 
     constructor(props) {
         super(props);
         this.state = {
-            expanded: ''
+            expanded: '',
+            facets: this.populateFacetsAsObject(this.props.facetValues)
         };
     }
 
@@ -18,6 +19,22 @@ class Facet extends React.Component {
         return facetLabel;
     }
 
+    populateFacetsAsObject(facetValues) {
+        let returnFavetsObject = {};
+        if(!facetValues) {
+            return returnFavetsObject;
+        }
+        //convert to array pairs
+        let tmpFavetsObject = facetValues.reduce(function(result, value, index, array) {
+            if (index % 2 === 0)
+              result.push(array.slice(index, index + 2));
+            return result;
+          }, []);;
+        //convert tmpFavetsObject to object
+        returnFavetsObject =  Object.fromEntries(tmpFavetsObject);
+        return returnFavetsObject;
+    }
+
     render() {
         const onToggle = id => {
             if (id === this.state.expanded) {
@@ -26,13 +43,10 @@ class Facet extends React.Component {
                 this.setState({expanded: id })
             }
         };
-
-        var facetValueList = this.props.facetValues.map(function(name, key){ 
-            if(key%2 === 0 && (name !== null && name !== "")) {
-                return <li key={key}>{name.replace(/_/g, " ")}</li>; 
-            } else {
-                return ""
-            }
+        
+        let tmpFacets = this.state.facets;
+        let facetValueList = Object.keys(tmpFacets).map((key) => { 
+            return <li key={key}>{key.replace(/_/g, " ")} <Badge key={key} isRead>{tmpFacets[key]}</Badge></li>; 
         });
 
         return (
