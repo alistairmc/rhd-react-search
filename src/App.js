@@ -19,7 +19,7 @@ class App extends React.Component {
 
     //set to output debug to console
     this.isDebug = true;
-    this.useAlternateUrl = true;
+    this.useAlternateUrl = false;
 
     //track app debug refresh
     this.appUpdateCount = 0;
@@ -28,9 +28,13 @@ class App extends React.Component {
     this.searchInputHandler = this.searchInputHandler.bind(this);
     this.searchFacetHandler = this.searchFacetHandler.bind(this);
 
+    //url params
+    this.baseUrl = document.location;
+    this.searchParams = new URLSearchParams(document.location.search.substring(1));
+
     // Set app state
     this.state = {
-      searchQuery: "test",
+      searchQuery: this.searchParams.get('q') ? this.searchParams.get('q') : "",
       searchApiUrl: "https://api.developers.redhat.com/search/v1/?",
       searchAlternateApiUrl: "/test-results/results.json?",
       searchQueryParam: "q",
@@ -42,6 +46,7 @@ class App extends React.Component {
       searchFetchSortParam: "sort",
       searchFacetQuery: "type",
       searchLoading: false,
+      searchLoadingError: false,
       searchResults: {
         response: {
           numFound: 0,
@@ -79,7 +84,7 @@ class App extends React.Component {
     })
   }
 
-  //Search update handeler
+  //Facet update handeler
   searchFacetHandler(value) {
     this.debugThis(
       this.appUpdateCount,
@@ -91,8 +96,7 @@ class App extends React.Component {
     }
     this.setState({
       searchQuery: value
-    },
-    function () {
+    }, function () {
       this.runNewSearch();
     })
   }
@@ -112,7 +116,14 @@ class App extends React.Component {
     );
   }
 
-  //Build search API URL
+  //Build search App URL from state data
+  buildSearchAppUrl() {
+    let urlString = `${this.baseUrl + this.state.searchQueryParam}=${this.state.searchQuery}&${this.state.searchFetchStartParam}=${this.state.searchFetchStart}&${this.state.searchFetchRowsParam}=${this.state.searchFetchRows}`;
+    this.debugThis(this.appUpdateCount, "buildSearchAppUrl", urlString);
+    return urlString;
+  }
+
+  //Build search API URL from state data
   buildSearchApiUrl() {
     let tmpSearchUrl = this.useAlternateUrl ? this.state.searchAlternateApiUrl : this.state.searchApiUrl;
     let urlString = `${tmpSearchUrl + this.state.searchQueryParam}=${this.state.searchQuery}&${this.state.searchFetchStartParam}=${this.state.searchFetchStart}&${this.state.searchFetchRowsParam}=${this.state.searchFetchRows}`;
@@ -120,12 +131,9 @@ class App extends React.Component {
     return urlString;
   }
 
-  //Build search API URL
-  buildSearchPreFetchAutocompleteUrl() {
-    let tmpSearchUrl = this.useAlternateUrl ? this.state.searchAlternateApiUrl : this.state.searchApiUrl;
-    let urlString = `${tmpSearchUrl + this.state.searchQueryParam}=auto&${this.state.searchFetchStartParam}=0&${this.state.searchFetchRowsParam}=1`;
-    this.debugThis(this.appUpdateCount, "buildSearchApiUrl", urlString);
-    return urlString;
+  //updatePageUrlFromState
+  updatePageUrlFromState() {
+    console.log(this.baseUrl);
   }
 
   //Process Search Results
@@ -171,9 +179,11 @@ class App extends React.Component {
         this.setState(
           {
             searchLoading: false,
+            searchLoadingError: false,
             searchResults: result.data
           },
           function () {
+            this.updatePageUrlFromState();
             this.processSearchResults();
           }
         );
@@ -182,7 +192,11 @@ class App extends React.Component {
         this.setState(
           {
             searchLoading: false,
+            searchLoadingError: true,
             error
+          },
+          function () {
+            this.updatePageUrlFromState();
           }
         )
       );
@@ -190,7 +204,6 @@ class App extends React.Component {
 
   componentDidMount() {
     this.debugThis(this.appUpdateCount, "componentDidMount", "");
-
     this.runNewSearch();
   }
 
@@ -210,9 +223,9 @@ class App extends React.Component {
             }
           </GridItem>
           <GridItem span={9}>
-            {this.state.searchLoading 
+            {this.state.searchLoading
               ? <Spinner></Spinner>
-              : <Results searchResults={this.state.searchResults.response.docs} />
+              : <Results state={this.state} searchResults={this.state.searchResults.response.docs} />
             }
           </GridItem>
           <GridItem span={12}>

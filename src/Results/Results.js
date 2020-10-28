@@ -5,6 +5,27 @@ import ResultProductWebpage from "./ResultTypes/ResultProductWebpage.js";
 import { Banner } from "@patternfly/react-core";
 
 class Results extends React.Component {
+  constructor(props) {
+    super(props);
+
+    //Error messages
+    this.state = {
+      errorMessages: {
+        noResultsFound: {
+          type: "info",
+          message: "Sorry no results available for that search query."
+        },
+        noSearchParam: {
+          type: "info",
+          message: "Please enter a search term in the search input field."
+        },
+        noSearchResults404: {
+          type: "danger",
+          message: "Sorry there has been a problem getting search results, please try again!"
+        }
+      }
+    }
+  }
 
   //Return Result Type from type array
   getResultType(typeArray) {
@@ -15,6 +36,24 @@ class Results extends React.Component {
     typeArray.sort();
     typeString = typeArray.join("_")
     return typeString;
+  }
+
+  //get error state messages
+  getErrorState() {
+    let returnValue = {
+      type: "",
+      message: ""
+    };
+    if(this.props.searchResults.length <= 0) {
+      returnValue = this.state.errorMessages.noResultsFound;
+      if(this.props.state.searchQuery === "") {
+        returnValue = this.state.errorMessages.noSearchParam;
+      }
+      if(this.props.state.searchLoadingError === true) {
+        returnValue = this.state.errorMessages.noSearchResults404;
+      }
+    }
+    return returnValue;
   }
 
   displayResult(index, result) {
@@ -31,11 +70,14 @@ class Results extends React.Component {
   }
 
   render() {
-    if(this.props.searchResults.length <= 0) {
+    
+    if(this.props.searchResults.length <= 0 ) {
+      let errorMessage = this.getErrorState();
+      console.log(errorMessage);
       return (         
         <>
           <div className="rhd-c-search-results-container">
-            <Banner variant="info">Sorry no results available for that search query.</Banner>
+            <Banner variant={errorMessage.type}>{errorMessage.message}</Banner>
           </div>
         </>
       );

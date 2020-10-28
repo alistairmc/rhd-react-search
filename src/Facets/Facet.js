@@ -1,11 +1,11 @@
 import React from "react";
-import { Accordion, AccordionItem, AccordionContent, AccordionToggle, Badge } from '@patternfly/react-core';
+import { Accordion, AccordionItem, AccordionContent, AccordionToggle, Checkbox } from '@patternfly/react-core';
 
 class Facet extends React.Component { 
     constructor(props) {
         super(props);
         this.state = {
-            expanded: '',
+            expanded: this.props.facet+"_filter",
             facets: this.populateFacetsAsObject(this.props.facetValues)
         };
     }
@@ -46,7 +46,18 @@ class Facet extends React.Component {
         
         let tmpFacets = this.state.facets;
         let facetValueList = Object.keys(tmpFacets).map((key) => { 
-            return <li key={key}>{key.replace(/_/g, " ")} <Badge key={key} isRead>{tmpFacets[key]}</Badge></li>; 
+            return  (
+                    <li key={key}>
+                        <Checkbox
+                            label={key.replace(/_/g, " ")+" - "+tmpFacets[key]} 
+                            isChecked=""
+                            onChange=""
+                            aria-label={this.props.facet+"-"+key.replace(/_/g, " ")} 
+                            id={this.props.facet+"_"+key}
+                            name={this.props.facet+"_"+key}
+                        />                        
+                    </li>
+                    ); 
         });
 
         return (
@@ -57,7 +68,7 @@ class Facet extends React.Component {
                     <AccordionToggle onClick={() => {onToggle(this.props.facet)}} isExpanded={this.state.expanded===this.props.facet} id={this.props.facet}>
                         <h3>{this.getFacetTypeLabel(this.props.facet)}</h3>
                     </AccordionToggle>
-                    <AccordionContent id={this.props.facet+"_expanded"} isHidden={this.state.expanded !== this.props.facet}>
+                    <AccordionContent id={this.props.facet+"_filter"} isHidden={this.state.expanded !== this.props.facet}>
                         <ul>
                             {facetValueList}
                         </ul>
